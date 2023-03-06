@@ -1,0 +1,13 @@
+.edit-todo {
+  width: 300px;
+}
+
+::ng-deep {
+  .mat-mdc-dialog-container .mdc-dialog__content {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+  .mdc-dialog__actions {
+    padding-right: 24px;
+  }
+}

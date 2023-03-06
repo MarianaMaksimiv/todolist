@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "assets/styles/index";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #4d4d4d;
+  line-height: 1.4em;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.error {
+  @apply text-red-500;
+}
